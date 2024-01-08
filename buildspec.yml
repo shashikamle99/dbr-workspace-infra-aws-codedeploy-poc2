@@ -10,9 +10,9 @@ phases:
     commands:
       - sudo apt-get update
       - sudo apt install zip -y
-      - zip dbr-aws-infra.zip $CODEBUILD_SRC_DIR
+      - zip -r dbr-aws-infra.zip $CODEBUILD_SRC_DIR
       - ls -ltr
-      - aws s3 cp --recursive dbr-aws-infra.zip s3://dbr-artifact
+      - aws s3 cp -r ./dbr-aws-infra.zip s3://dbr-artifact
 # artifacts:
 #   type: zip
 #   files:
