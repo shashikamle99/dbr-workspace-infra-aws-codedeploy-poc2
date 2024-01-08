@@ -1,11 +1,10 @@
-version: 0.2
+version: 0.0
 os: linux
-
-# env:
-#   parameter-store:
-   
-
-phases:
-  install:
-    commands:
-      - sudo apt-get update
+# files:
+#   - source: /
+#     destination: /var/www/html/WordPress
+hooks:
+  BeforeInstall:
+    - location: scripts/terra-workspace.sh
+      timeout: 300
+      runas: root
