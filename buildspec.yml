@@ -9,4 +9,7 @@ phases:
   install:
     commands:
       - sudo apt-get update
-      
+artifacts:
+  type: zip
+  files:
+    - '*.tf'
