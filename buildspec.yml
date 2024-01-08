@@ -14,4 +14,4 @@ phases:
 artifacts:
   type: zip
   files:
-    - './CODEBUILD_SRC_DIR'
+    - '~/dbr-aws-infra'
