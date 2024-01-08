@@ -11,7 +11,8 @@ phases:
       #- sudo apt-get update
       - ls -ltr
       - pwd
-artifacts:
-  type: zip
-  files:
-    - '~/dbr-aws-infra'
+      - aws s3 --recursive ./dbr-aws-infra s3://dbr-artifact
+# artifacts:
+#   type: zip
+#   files:
+#     - '~/dbr-aws-infra'
