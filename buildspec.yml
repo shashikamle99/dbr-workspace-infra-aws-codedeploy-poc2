@@ -1,0 +1,12 @@
+version: 0.2
+os: linux
+
+# env:
+#   parameter-store:
+   
+
+phases:
+  install:
+    commands:
+      - sudo apt-get update
+      
