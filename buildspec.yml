@@ -8,8 +8,10 @@ os: linux
 phases:
   install:
     commands:
-      - sudo apt-get update
+      #- sudo apt-get update
+      - ls -ltr
+      - pwd
 artifacts:
   type: zip
   files:
-    - '~/dbr-aws-infra'
+    - './CODEBUILD_SRC_DIR'
