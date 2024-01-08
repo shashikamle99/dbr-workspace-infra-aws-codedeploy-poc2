@@ -11,7 +11,7 @@ phases:
       #- sudo apt-get update
       - ls -ltr
       - pwd
-      - aws s3 cp --recursive ./dbr-aws-infra s3://dbr-artifact
+      - aws s3 cp --recursive "$CODEBUILD_SRC_DIR" s3://dbr-artifact
 # artifacts:
 #   type: zip
 #   files:
