@@ -12,4 +12,4 @@ phases:
 artifacts:
   type: zip
   files:
-    - '**/*'
+    - './dbr-aws-infra'
