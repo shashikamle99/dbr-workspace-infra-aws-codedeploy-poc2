@@ -5,6 +5,6 @@ os: linux
 #     destination: /var/www/html/WordPress
 hooks:
   BeforeInstall:
-    - location: /scripts/test.sh
+    - location: /scripts/workspace.sh
       timeout: 300
       runas: root
