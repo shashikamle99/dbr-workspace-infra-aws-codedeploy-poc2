@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /
+    destination: /var/tmp
 hooks:
   BeforeInstall:
-    - location: /scripts/workspace.sh
+    - location: /var/tmp/scripts/workspace.sh
       timeout: 300
       runas: root
