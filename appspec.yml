@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
-# files:
-#   - source: /
-#     destination: /var/tmp
+files:
+  - source: /
+    destination: /opt/iac
 hooks:
   AfterInstall:
     - location: scripts/workspace.sh
