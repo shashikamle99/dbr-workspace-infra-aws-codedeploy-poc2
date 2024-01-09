@@ -1,10 +1,11 @@
 version: 0.0
 os: linux
-# files:
-#   - source: /
-#     destination: /opt/iac
+files:
+  - source: /
+    destination: /opt/iac
 hooks:
   AfterInstall:
     - location: terra.sh
       timeout: 300
       runas: root
+      
