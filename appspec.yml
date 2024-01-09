@@ -6,6 +6,5 @@ files:
 hooks:
   AfterInstall:
     - location: terra.sh
-      timeout: 300
+      timeout: 700
       runas: root
-      
