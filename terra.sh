@@ -1,5 +1,6 @@
 #!/bin/bash
-#cd /opt/iac
+cd ~
+cd /opt/iac
 pwd
 terraform --version
 terraform init
