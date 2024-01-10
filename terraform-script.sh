@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ~
-cd /opt/codedeploy-agent
+cd /opt/codedeploy-agent/infra-code
 terraform --version
 terraform init
 terraform validate

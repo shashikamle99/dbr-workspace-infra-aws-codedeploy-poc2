@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /opt/codedeploy-agent
+    destination: /opt/codedeploy-agent/infra-code
 hooks:
   AfterInstall:
-    - location: terra.sh
-      timeout: 700
+    - location: terraform-script.sh
+      timeout: 600
       runas: root
