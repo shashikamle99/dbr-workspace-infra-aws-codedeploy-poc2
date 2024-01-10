@@ -1,9 +1,6 @@
 #!/bin/bash
-pwd
-ls -ltr
-cd ~
-cd /opt/iac
-pwd
+# cd ~
+# cd /opt/iac
 terraform --version
 terraform init
 terraform validate
