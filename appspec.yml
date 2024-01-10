@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /opt/iac
+    destination: /
 hooks:
   AfterInstall:
     - location: terra.sh
