@@ -1,5 +1,5 @@
 data "databricks_aws_assume_role_policy" "this" {
-  external_id = var.databricks_account_id
+  external_id = local.databricks_account_id
 }
 
 resource "aws_iam_role" "cross_account_role" {
