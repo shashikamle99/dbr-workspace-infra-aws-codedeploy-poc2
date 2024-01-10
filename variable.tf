@@ -1,12 +1,12 @@
-variable "client_id" {
-  default = local.client_id
-}
-variable "client_secret" {
-  default = local.client_secret
-}
-variable "databricks_account_id" {
-  default = local.databricks_account_id
-}
+# variable "client_id" {
+#   default = local.client_id
+# }
+# variable "client_secret" {
+#   default = local.client_secret
+# }
+# variable "databricks_account_id" {
+#   default = local.databricks_account_id
+# }
 
 variable "tags" {
   default = {}
