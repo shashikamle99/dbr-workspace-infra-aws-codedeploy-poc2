@@ -11,9 +11,6 @@ terraform {
 }
 
 
-# data "aws_ssm_parameter" "ami" {
-#   name = ""
-# }
 
 provider "aws" {
   region = var.region
