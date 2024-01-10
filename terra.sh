@@ -1,10 +1,7 @@
 #!/bin/bash
-pwd
-ls -ltr
 cd ~
 cd /opt/codedeploy-agent
 terraform --version
-pwd
 terraform init
 terraform validate
 #terraform plan --var-file=dev.tfvars
