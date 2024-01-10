@@ -1,7 +1,10 @@
 #!/bin/bash
+pwd
+ls -ltr
 # cd ~
 # cd /opt/iac
 terraform --version
+pwd
 terraform init
 terraform validate
 #terraform plan --var-file=dev.tfvars
