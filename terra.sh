@@ -1,8 +1,8 @@
 #!/bin/bash
 pwd
 ls -ltr
-# cd ~
-# cd /opt/iac
+cd ~
+cd /opt/codedeploy-agent
 terraform --version
 pwd
 terraform init
