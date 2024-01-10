@@ -1,13 +1,10 @@
 #!/bin/bash
-pwd
-ls -ltr
 cd ~
-cd /opt/iac
-pwd
+cd /opt/codedeploy-agent
 terraform --version
 terraform init
 terraform validate
 #terraform plan --var-file=dev.tfvars
-terraform plan --var-file=dev.tfvars --auto-approve
+#terraform apply --var-file=dev.tfvars --auto-approve
 terraform destroy --var-file=dev.tfvars --auto-approve
 
