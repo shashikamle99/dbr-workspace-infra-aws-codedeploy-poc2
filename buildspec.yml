@@ -9,7 +9,7 @@ phases:
   install:
     commands:
       - sudo apt-get update
-       - ls -ltr
+      - ls -ltr
 artifacts:
   type: zip
   files:
