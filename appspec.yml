@@ -5,6 +5,6 @@ files:
     destination: /opt/codedeploy-agent/infra-code
 hooks:
   AfterInstall:
-    - location: terraform-script.sh
+    - location: workspace-script.sh
       timeout: 600
       runas: root
