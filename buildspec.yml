@@ -8,11 +8,8 @@ os: linux
 phases:
   install:
     commands:
-      # - sudo apt-get update
-      # - sudo apt install zip -y
-      # - zip -r dbr-aws-infra.zip $CODEBUILD_SRC_DIR
+      - sudo apt-get update
        - ls -ltr
-      # - aws s3 cp --recursive ./dbr-aws-infra.zip s3://dbr-artifact
 artifacts:
   type: zip
   files:
